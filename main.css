@@ -1,15 +1,11 @@
 body {
-    /* font-size: 75%; */
     color: whitesmoke;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     margin: 0;
     background-color: #2aa348;
     display: inline-block;
-    /* -webkit-background-size: 100% 100%; */
-    /* -moz-background-size: 100% 100%; */
     background-size: 100% 100%;
-    /* -o-background-size: 100% 100%; */
 }
 
 hr {
@@ -41,30 +37,31 @@ header h2 {
 }
 
 nav {
-    /* color: #fab005; */
-    /* text-align: center; */
     font-size: 1em;
     text-shadow: 3px 3px 0 black;
     letter-spacing: 0.15em;
     padding: 0;
     margin: -0.5em 0 0.5em 10em;
 }
+
 nav ul {
-    /* color: #fab005; */
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 nav ul li {
     color: #d3e630;
     display: inline-block;
     margin: 0;
 }
+
 nav ul li a, nav ul li a:visited {
     text-decoration: none;
     color: #d3e630;
     padding: 0.2em 0.8em;
 }
+
 nav ul li a:hover {
     color: #8ab38c;
     background-color: #0f4203;
@@ -108,15 +105,11 @@ ul li a:hover {
     margin: 1em 1em 1em 2em;
     border-radius: 10% 0 0 10%;
     border-right: 10px lightgray solid;
-    /* width: 400px; */
-    /* height: 480px; */
     width: 25vw;
     height: 50vh;
 }
 
 ul li.subItem a, ul li.subItem a:visited {
-        /* font-size: 2em; */
-    /* margin: .5em .5em .5em .625em; */
     margin: .5em;
 }
 
@@ -131,7 +124,6 @@ ul li.subItem a, ul li.subItem a:visited {
     margin: 0;
     border-radius: 0 5% 5% 0;
     border-left: lightgray solid 10px;
-    /* width: 750px;
     height: 460px; */
     width: 40vw;
     height: 50vh;
@@ -139,7 +131,6 @@ ul li.subItem a, ul li.subItem a:visited {
 
 #bioPic {
     float: left;
-    /* width: 50%; */
     max-width: 25%;
     border-color: lightgray;
     border-style: solid;
@@ -187,7 +178,6 @@ ul li.subItem a, ul li.subItem a:visited {
     border-top: lightgray solid 10px;
     text-align: center;
     padding: 1em;
-    /* margin: 1.75em 0 0 .25em; */
     width: 15vw;
     height: 20vh;
 }
@@ -216,7 +206,6 @@ footer {
 }
 
 footer ul#footerStuff {
-    /* display: inline-block; */
     margin: 0;
 }
 
