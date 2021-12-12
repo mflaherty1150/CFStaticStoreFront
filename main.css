@@ -107,6 +107,7 @@ ul li a:hover {
     border-right: 10px lightgray solid;
     width: 25vw;
     height: 50vh;
+    overflow: auto;
 }
 
 ul li.subItem a, ul li.subItem a:visited {
@@ -124,9 +125,10 @@ ul li.subItem a, ul li.subItem a:visited {
     margin: 0;
     border-radius: 0 5% 5% 0;
     border-left: lightgray solid 10px;
-    height: 460px; */
+    height: 460px;
     width: 40vw;
     height: 50vh;
+    overflow: auto;
 }
 
 #bioPic {
